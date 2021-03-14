@@ -2,9 +2,9 @@
   "name": "didmap-client-front",
   "description": "Unofficial React client for https://mapasinteractivos.didactalia.net",
   "author": {
-    "name" : "Jose Blanco Perales",
-    "email" : "jblanper@gmail.com",
-    "url" : "https://joseblancoperales.com/"
+    "name": "Jose Blanco Perales",
+    "email": "jblanper@gmail.com",
+    "url": "https://joseblancoperales.com/"
   },
   "version": "1.0.0",
   "private": true,

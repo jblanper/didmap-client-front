@@ -22,7 +22,7 @@ export default function MapView() {
     useEffect(async () => {
         setLoading(true)
         try {
-            const result = await axios.get(`http://localhost:8000/map/?map_path=${title}/${id}`);
+            const result = await axios.get(`https://didmap-api.herokuapp.com/map/?map_path=${title}/${id}`);
             setMapInfo(result.data);
         } catch(error) {
             setMapInfo({});

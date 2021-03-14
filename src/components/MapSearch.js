@@ -31,7 +31,7 @@ export default function MapSearch() {
             const queryParams = `map_type=${form['mapTheme'].value}&continent=${form['continent'].value}&country=${form['country'].value}&region=${form['region'].value}&game_tyep=${form['gameType'].value}`;
 
             try {
-                const result = await axios.get(`http://localhost:8000/mapcollection/?${queryParams}`);
+                const result = await axios.get(`https://didmap-api.herokuapp.com/mapcollection/?${queryParams}`);
                 setMapcollection(result.data.data);
                 setAlert({
                     active: true, 
