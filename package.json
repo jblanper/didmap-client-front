@@ -1,13 +1,23 @@
 {
-  "name": "didactalia_maps_front",
-  "version": "0.1.0",
+  "name": "didmap-client-front",
+  "description": "Unofficial React client for https://mapasinteractivos.didactalia.net",
+  "author": {
+    "name" : "Jose Blanco Perales",
+    "email" : "jblanper@gmail.com",
+    "url" : "https://joseblancoperales.com/"
+  },
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
   },
